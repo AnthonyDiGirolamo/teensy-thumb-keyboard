@@ -10,6 +10,12 @@
   )
 
   (page A4)
+  (title_block
+    (title "Teensy Thumb Board")
+    (date 2018-11-11)
+    (rev 1.0)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)

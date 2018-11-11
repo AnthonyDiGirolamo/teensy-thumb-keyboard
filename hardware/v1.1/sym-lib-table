@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name teensythumbboard-rescue)(type Legacy)(uri ${KIPRJMOD}/teensythumbboard-rescue.lib)(options "")(descr ""))
+  (lib (name teensy32)(type Legacy)(uri ${KIPRJMOD}/symbols/teensy32.lib)(options "")(descr ""))
+)

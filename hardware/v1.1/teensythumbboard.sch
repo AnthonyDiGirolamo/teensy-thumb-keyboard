@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Teensy Thumb Board"
 Date "2018-11-11"
-Rev "1.0"
+Rev "1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1455,12 +1455,12 @@ F 3 "" H 5800 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L teensythumbboard-rescue:Teensy3.2-teensy32 U1
+L teensy32:Teensy3.2 U1
 U 1 1 5B82F09B
 P 3400 6200
 F 0 "U1" H 3400 7787 60  0000 C CNN
 F 1 "Teensy3.2" H 3400 7681 60  0000 C CNN
-F 2 "teensy32:Teensy32" H 3400 5400 60  0001 C CNN
+F 2 "teensy32:Teensy32_InnerProto" H 3400 5400 60  0001 C CNN
 F 3 "" H 3400 5400 60  0000 C CNN
 	1    3400 6200
 	1    0    0    -1  
