@@ -3,3 +3,23 @@
   Handheld tactile switch keyboard for Teensy 3.2 compatible boards.
 
   More photos and information available on the [[https://hackaday.io/project/162281-teensy-thumb-keyboard][hackaday.io page]].
+
+** Features
+
+   - Beginner friendly through hole soldering.
+   - 60 keys arranged in a familiar qwerty layout with number keys arranged in a
+     numpad.
+   - SPI, I2C, and 2 additional GPIOs broken out. Aside from these pins all
+     others are used to read the key matrix.
+   - Teensy can be rotated with the micro USB facing up or down. Breakout pins
+     will only work as expected with USB facing up.
+
+*** v1.1 Render
+    NOTE: This revision has not been tested.
+
+*** V1.0 Photo
+
+** Cases
+
+   - Keyboard Faceplate [[https://a360.co/2QAJ0Qb][Fusion 360 Public Link]]
+   - Raspberry Pi 3 B+ & HyperPixel4 Handheld [[https://a360.co/2QzHvla][Fusion 360 Public Link]]
