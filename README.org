@@ -25,3 +25,7 @@
 
    - Keyboard Faceplate [[https://a360.co/2QAJ0Qb][Fusion 360 Public Link]]
    - Raspberry Pi 3 B+ & HyperPixel4 Handheld [[https://a360.co/2QzHvla][Fusion 360 Public Link]]
+
+** Firmware
+
+   Example firmware coming soon.
