@@ -16,8 +16,10 @@
 
 *** v1.1 Render
     NOTE: This revision has not been tested.
+    [[./images/v1.1_render.png]]
 
 *** V1.0 Photo
+    [[./images/v1.0_photo1.jpg]]
 
 ** Cases
 
