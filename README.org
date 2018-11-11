@@ -1,0 +1,5 @@
+* teensy-thumb-keyboard
+
+  Handheld tactile switch keyboard for Teensy 3.2 compatible boards.
+
+  More photos and information available on the [[https://hackaday.io/project/162281-teensy-thumb-keyboard][hackaday.io page]].
