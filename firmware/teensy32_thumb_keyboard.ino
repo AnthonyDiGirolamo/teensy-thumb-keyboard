@@ -79,7 +79,7 @@ KeyboardState keyboard_state = KeyboardState();
 
 // User configurable mouse speed values
 #define MOUSEKEY_DELAY 100
-#define MOUSEKEY_INTERVAL 1
+#define MOUSEKEY_INTERVAL 10
 #define MOUSEKEY_MAX_SPEED 7
 #define MOUSEKEY_TIME_TO_MAX 255
 #define MOUSEKEY_WHEEL_MAX_SPEED 7

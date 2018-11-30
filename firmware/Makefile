@@ -7,7 +7,8 @@
 
 ARDUINO_DIR = ${HOME}/apps/arduino-1.8.7
 SKETCHBOOK	= $(HOME)/Arduino
-SKETCH = $(notdir $(CURDIR)).ino
+# SKETCH = $(notdir $(CURDIR)).ino
+SKETCH = teensy32_thumb_keyboard.ino
 SKETCHDIRNAME = $(notdir $(CURDIR))
 TARGET_DIR = $(CURDIR)/build-teensy32
 
