@@ -27,4 +27,25 @@
 
 ** Firmware
 
-   Example firmware coming soon.
+   - The layout for USB keyboarding is defined in the ~usb_key_matrix~ variable
+     in [[https://github.com/AnthonyDiGirolamo/teensy-thumb-keyboard/blob/master/firmware/LayoutThumbKeyboard.h#L109][LayoutThumbKeyboard.h]]
+
+   - If you don't need a USB keyboard and are rolling your own hardware project
+     then you can focus on the layout defined by the ~ascii_key_matrix~ variable
+     in [[https://github.com/AnthonyDiGirolamo/teensy-thumb-keyboard/blob/master/firmware/LayoutThumbKeyboard.h#L74][LayoutThumbKeyboard.h]]
+
+   - There are three layers defined: base, shift, and Fn layers.
+
+   - USB can be disabled by commenting out define ~USE_TEENSY_USB_KEYBOARD~.
+
+   - All the keyboardy goodness is handled by the ~keyboard_update();~ function
+     called from inside the standard Arduino ~loop()~.
+
+   - If you don't need the keys to behave like a keyboard you can gut most of
+     that example and just use ~key_matrix.update();~ The KeyboardMatrix class
+     handles reading the button states.
+
+   - An alternative firmware option for a pure USB keyboard would be to run the
+     excellent https://github.com/qmk/qmk_firmware.
+
+
