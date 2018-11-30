@@ -14,9 +14,8 @@
    - Teensy can be rotated with the micro USB facing up or down. Breakout pins
      will only work as expected with USB facing up.
 
-*** v1.1 Render
-    NOTE: This revision has not been tested.
-    [[./images/v1.1_render.png]]
+*** v1.1 Photo
+    [[./images/v1.1_photo1.jpg]]
 
 *** V1.0 Photo
     [[./images/v1.0_photo1.jpg]]
