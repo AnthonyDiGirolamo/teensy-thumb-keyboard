@@ -2,8 +2,8 @@
 
   Handheld tactile switch keyboard for Teensy 3.2 compatible boards.
 
-  - [[https://www.tindie.com/products/15575/][Teensy Thumb Keyboard - PCB only]] Tindie product page
-  - [[https://hackaday.io/project/162281-teensy-thumb-keyboard][hackaday.io page]] page for more photos, info and project Logs
+  - [[https://www.tindie.com/products/15575/][Teensy Thumb Keyboard - PCB only]] - Tindie product page and ordering
+  - [[https://hackaday.io/project/162281-teensy-thumb-keyboard][hackaday.io page]] - more photos, info and project logs
   - [[https://www.thingiverse.com/thing:3209958][thingiverse 'HyperPixel 4 & Raspberry Pi 3 B+ Handheld' page]]
 
 *** v1.1 Photo
