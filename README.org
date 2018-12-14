@@ -19,7 +19,7 @@
    - Layout is completely customizable in the firmware.
    - [[https://github.com/qmk/qmk_firmware][qmk_firmware]] should also work however, I don't have an example running yet.
 
-   **Three possible mounting options**
+   *Three possible mounting options*
 
    1. Teensy on the front, mounted right-side up, with usb port facing north.
    2. Teensy on the back, mounted upside down, with usb port facing north or
