@@ -6,13 +6,23 @@
 
 ** Features
 
-   - Beginner friendly through hole soldering.
-   - 60 keys arranged in a familiar qwerty layout with number keys arranged in a
-     numpad.
+   - 60 keys arranged in a 6x10 matrix (uses 16 pins used on the
+     microcontroller).
+   - Silkscreen has a qwerty layout with number keys arranged in a numpad.
    - SPI, I2C, and 2 additional GPIOs broken out. Aside from these pins all
      others are used to read the key matrix.
-   - Teensy can be rotated with the micro USB facing up or down. Breakout pins
-     will only work as expected with USB facing up.
+   - Three possible orientations:
+     - Teensy on the front mounted rightside up With usb port facing north
+     - Teensy on the back mounted upside down with usb port facing north or south
+     - Teensy on the back mounted upside down with usb port facing south.
+       Note: Breakout pins will only work as expected with USB facing north.
+   - Beginner friendly through hole soldering.
+   - Example Arduino sketch firmware provided.
+   - Layout is completely customizeable in the firmware.
+   - Footprint compatible microcontroller boards:
+     - [[https://www.pjrc.com/store/teensy32.html][Teensy 3.2]]
+     - [[https://www.pjrc.com/store/teensylc.html][Teensy LC]]
+     - [[https://www.tindie.com/products/TleraCorp/butterfly-stm32l433-development-board/][Butterfly STM32L433]]
 
 *** v1.1 Photo
     [[./images/v1.1_photo1.jpg]]
