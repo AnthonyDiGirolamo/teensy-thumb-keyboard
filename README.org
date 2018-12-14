@@ -4,25 +4,57 @@
 
   More photos and information available on the [[https://hackaday.io/project/162281-teensy-thumb-keyboard][hackaday.io page]].
 
-** Features
+  Sample project using this keyboard: [[https://www.thingiverse.com/thing:3209958][HyperPixel 4 & Raspberry Pi 3 B+ Handheld]]
 
-   - 60 keys arranged in a 6x10 matrix (uses 16 pins used on the
-     microcontroller).
+** Features
+   - 60 keys arranged in a 6x10 matrix (uses 16 pins on the microcontroller).
    - Silkscreen has a qwerty layout with number keys arranged in a numpad.
-   - SPI, I2C, and 2 additional GPIOs broken out. Aside from these pins all
-     others are used to read the key matrix.
-   - Three possible orientations:
-     - Teensy on the front mounted rightside up With usb port facing north
-     - Teensy on the back mounted upside down with usb port facing north or south
-     - Teensy on the back mounted upside down with usb port facing south.
-       Note: Breakout pins will only work as expected with USB facing north.
+   - Lead free ENIG-RoHs surface finish with 2oz copper.
+   - SPI, I2C, and 2 additional GPIOs broken out.
+   - Each pin along the edge of the Teensy is connected to one extra pin in the
+     prototyping area.
    - Beginner friendly through hole soldering.
-   - Example Arduino sketch firmware provided.
-   - Layout is completely customizeable in the firmware.
-   - Footprint compatible microcontroller boards:
-     - [[https://www.pjrc.com/store/teensy32.html][Teensy 3.2]]
-     - [[https://www.pjrc.com/store/teensylc.html][Teensy LC]]
-     - [[https://www.tindie.com/products/TleraCorp/butterfly-stm32l433-development-board/][Butterfly STM32L433]]
+   - Example Arduino sketch [[https://github.com/AnthonyDiGirolamo/teensy-thumb-keyboard/tree/master/firmware][firmware]] provided. Additional details in the [[https://hackaday.io/project/162281-teensy-thumb-keyboard/log/156138-example-firmware-posted][Example
+     Firmware Posted project log]].
+   - Layout is completely customizable in the firmware.
+   - [[https://github.com/qmk/qmk_firmware][qmk_firmware]] should also work however, I don't have an example running yet.
+
+   **Three possible mounting options**
+
+   1. Teensy on the front, mounted right-side up, with usb port facing north.
+   2. Teensy on the back, mounted upside down, with usb port facing north or
+      south.
+   3. Teensy on the back, mounted upside down, with usb port facing south. Note:
+      Breakout pins will only work as expected with USB facing north.
+
+** Parts list for a fully working keyboard
+
+   - 1x [[https://www.pjrc.com/store/teensy32.html][Teensy 3.2]] or [[https://www.pjrc.com/store/teensylc.html][Teensy LC]]. A [[https://www.tindie.com/products/TleraCorp/butterfly-stm32l433-development-board/][Butterfly STM32L433]] will also work (though not
+     as a USB keyboard).
+   - 10x 1N4148 Zener Diodes
+   - 60x Panasonic EVQ-PAC04M Tacticle Switches. These are the quieter and higher
+     quality switches. Some are available at [[https://www.digikey.com/products/en?keywords=EVQ-PAC04M][digikey]]. If you wish to use the 3d
+     printed faceplate the overall switch height must be 4.3mm. These models will
+     also work: EVQ-PAD04M EVQ-PAE04M EVQ-PAG04M. Otherwise any standard 6x6mm
+     momentary switch will work.
+
+** Ordering
+
+   - [[https://www.tindie.com/products/15575/][Teensy Thumb Keyboard - PCB only]] Tindie product page
+   - Ordering yourself from a PCB manufacturer:
+     - https://oshpark.com instructions: upload the [[https://github.com/AnthonyDiGirolamo/teensy-thumb-keyboard/blob/master/hardware/v1.1/teensythumbboard.kicad_pcb][kicad pcb file]] file.
+     - https://jlcpcb.com/quote instructions: upload the [[https://github.com/AnthonyDiGirolamo/teensy-thumb-keyboard/blob/master/hardware/v1.1/plots/gerbers.zip][gerber.zip file]] The
+       settings I'd recommend are:
+       - Layers: 2
+       - Thickness: 1
+       - Surface finish: LeadFree HASL-RoHs or ENIG-RoHs (don't want lead on a
+         board you may be typing on)
+       - Copper weight: 2oz (1oz is probably fine though, the heavier weight
+         copper stands up better to repeated solder and desoldering I think)
+       - Everything else default settings.
+
+
+
 
 *** v1.1 Photo
     [[./images/v1.1_photo1.jpg]]
