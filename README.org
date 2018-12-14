@@ -2,9 +2,12 @@
 
   Handheld tactile switch keyboard for Teensy 3.2 compatible boards.
 
-  More photos and information available on the [[https://hackaday.io/project/162281-teensy-thumb-keyboard][hackaday.io page]].
+  - [[https://www.tindie.com/products/15575/][Teensy Thumb Keyboard - PCB only]] Tindie product page
+  - [[https://hackaday.io/project/162281-teensy-thumb-keyboard][hackaday.io page]] page for more photos, info and project Logs
+  - [[https://www.thingiverse.com/thing:3209958][thingiverse 'HyperPixel 4 & Raspberry Pi 3 B+ Handheld' page]]
 
-  Sample project using this keyboard: [[https://www.thingiverse.com/thing:3209958][HyperPixel 4 & Raspberry Pi 3 B+ Handheld]]
+*** v1.1 Photo
+    [[./images/v1.1_photo1.jpg]]
 
 ** Features
    - 60 keys arranged in a 6x10 matrix (uses 16 pins on the microcontroller).
@@ -26,9 +29,6 @@
       south.
    3. Teensy on the back, mounted upside down, with usb port facing south. Note:
       Breakout pins will only work as expected with USB facing north.
-
-*** v1.1 Photo
-    [[./images/v1.1_photo1.jpg]]
 
 ** Parts list for a fully working keyboard
 
