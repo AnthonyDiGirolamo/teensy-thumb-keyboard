@@ -27,6 +27,9 @@
    3. Teensy on the back, mounted upside down, with usb port facing south. Note:
       Breakout pins will only work as expected with USB facing north.
 
+*** v1.1 Photo
+    [[./images/v1.1_photo1.jpg]]
+
 ** Parts list for a fully working keyboard
 
    - 1x [[https://www.pjrc.com/store/teensy32.html][Teensy 3.2]] or [[https://www.pjrc.com/store/teensylc.html][Teensy LC]]. A [[https://www.tindie.com/products/TleraCorp/butterfly-stm32l433-development-board/][Butterfly STM32L433]] will also work (though not
@@ -52,15 +55,6 @@
        - Copper weight: 2oz (1oz is probably fine though, the heavier weight
          copper stands up better to repeated solder and desoldering I think)
        - Everything else default settings.
-
-
-
-
-*** v1.1 Photo
-    [[./images/v1.1_photo1.jpg]]
-
-*** V1.0 Photo
-    [[./images/v1.0_photo1.jpg]]
 
 ** Cases
 
