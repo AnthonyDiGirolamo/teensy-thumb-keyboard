@@ -84,4 +84,51 @@
    - An alternative firmware option for a pure USB keyboard would be to run the
      excellent https://github.com/qmk/qmk_firmware.
 
+*** Compiling on Windows machines
 
+    1. Using a Teensy 3.2 or Teensy LC follow these directions for downloading
+       and installing the teensyduino add-on to the Arduino environment:
+       https://www.pjrc.com/teensy/td_download.html
+
+    2. Once you have both installed. Launch the Arduino IDE and check what
+       version of teensyduino is installed by going to *Help > About
+       Arduino*. The about window for me shows *Arduino 1.8.9* in the upper left
+       and *Teensyduino 1.46* in the upper right.
+
+    3. Download the code archive from:
+       https://github.com/AnthonyDiGirolamo/teensy-thumb-keyboard/archive/master.zip
+
+    4. Extract that folder and move the firmware folder to:
+       ~C:\Users\anthony\Documents\Arduino\firmware~ Substitute "anthony" with
+       your username.
+
+    5. Rename the ~firmware~ folder to ~teensy32_thumb_keyboard~
+
+       The full path should be:
+       ~C:\Users\anthony\Documents\Arduino\teensy32_thumb_keyboard~
+
+       And these files should exist inside there:
+
+       #+BEGIN_SRC text
+         KeyboardMatrix.cpp
+         KeyboardMatrix.h
+         LayoutAppleM0110a.h
+         LayoutCommon.h
+         LayoutThumbKeyboard.h
+         LinkedList.h
+         teensy32_thumb_keyboard.ino
+       #+END_SRC
+
+    6. Open
+       ~C:\Users\anthony\Documents\Arduino\teensy32_thumb_keyboard\teensy32_thumb_keyboard.ino~
+       in the arduino IDE.
+
+    7. In the *Tools* menu select *USB Type > Serial + Keyboard + Mouse + Joystick*
+
+    8. Click the verify or upload buttons in the toolbar. If compilation is
+       successful you should see a message like:
+
+       #+BEGIN_SRC text
+         Sketch uses 27920 bytes (10%) of program storage space. Maximum is 262144 bytes.
+         Global variables use 6680 bytes (10%) of dynamic memory, leaving 58856 bytes for local variables. Maximum is 65536 bytes.
+       #+END_SRC
