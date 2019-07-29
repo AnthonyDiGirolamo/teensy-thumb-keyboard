@@ -132,3 +132,15 @@
          Sketch uses 27920 bytes (10%) of program storage space. Maximum is 262144 bytes.
          Global variables use 6680 bytes (10%) of dynamic memory, leaving 58856 bytes for local variables. Maximum is 65536 bytes.
        #+END_SRC
+
+*** Uploading the firmware without compiling
+
+    If you don't wish to compile the firmware yourself you can use the
+    precompiled hex files provided in the [[https://github.com/AnthonyDiGirolamo/teensy-thumb-keyboard/tree/master/firmware-compiled][firmware-compiled]] folder.
+
+    To get them loaded on a Teensy 3.2 or LC download and install the
+    [[https://www.pjrc.com/teensy/loader.html][Teensy Loader Application]] once installed plug in your teensy board and load
+    the correct firmware file:
+
+    - [[https://www.pjrc.com/store/teensy32.html][Teensy 3.2]]: ~teensy32_thumb_keyboard.ino-teensy32.hex~
+    - [[https://www.pjrc.com/store/teensylc.html][Teensy LC]]: ~teensy32_thumb_keyboard.ino-teensyLC.hex~
