@@ -144,3 +144,8 @@
 
     - [[https://www.pjrc.com/store/teensy32.html][Teensy 3.2]]: ~teensy32_thumb_keyboard.ino-teensy32.hex~
     - [[https://www.pjrc.com/store/teensylc.html][Teensy LC]]: ~teensy32_thumb_keyboard.ino-teensyLC.hex~
+
+** Alternate Versions
+
+   - [[https://github.com/AnthonyDiGirolamo/i2c-thumb-keyboard][i2c-thumb-keyboard]]
+
